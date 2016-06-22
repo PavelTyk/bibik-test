@@ -1,0 +1,22 @@
+== README
+
+Please read carefully if you are a newcomer!
+
+== First time launch
+
+1. Download source code: <tt>git clone git@github.com:PavelTyk/bibik-test.git</tt>
+1. If you use RVM, add necessary config files. For example: <tt>echo '2.3.1' > .ruby-version; echo 'bibik' > .ruby-gemset</tt>. Please do not checkin those files to repo (use ~/.gitignore_global).
+1. Install gems: <tt>bundle install</tt>
+1. Launch the server and all dependencies: <tt>foreman s</tt>. The app should be accessible via http://localhost:9292/
+
+=== Source Code Style Guide
+
+* Use +UTF-8+ as the source file encoding.
+* Use two *spaces* per indentation level (aka soft tabs). No hard tabs.
+* Avoid trailing whitespace.
+* End each file with a newline!!!
+* Use Unix-style line endings. (*BSD/Solaris/Linux/OS X users are covered by default, Windows users have to be extra careful.) Run <tt>git config --global core.autocrlf true</tt> if you on Windows, and run <tt>git config --global core.autocrlf input</tt> if you on Max/Linux.
+* No spaces after <tt>(</tt>, <tt>[</tt> or before <tt>]</tt>, <tt>)</tt>.
+* Use empty lines between method definitions and also to break up methods into logical paragraphs internally.
+
+More info: https://github.com/bbatsov/ruby-style-guide#source-code-layout
