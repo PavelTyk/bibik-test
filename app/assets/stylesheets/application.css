@@ -13,3 +13,277 @@
  *= require_tree .
  *= require_self
  */
+
+h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'TheinhardtMd';
+    src: url('/assets/Theinhardt-Md.eot');
+    src: url('/assets/Theinhardt-Md.eot?#iefix') format('embedded-opentype'),
+    url('/assets/Theinhardt-Md.woff') format('woff'),
+    url('/assets/Theinhardt-Md.ttf') format('truetype'),
+    url('/assets/Theinhardt-Md.svg#Theinhardt-Md') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheinhardtRg';
+    src: url('/assets/Theinhardt-Rg.eot');
+    src: url('/assets/Theinhardt-Rg.eot?#iefix') format('embedded-opentype'),
+    url('/assets/Theinhardt-Rg.woff') format('woff'),
+    url('/assets/Theinhardt-Rg.ttf') format('truetype'),
+    url('/assets/Theinhardt-Rg.svg#Theinhardt-Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FaktSlabProBnd';
+    src: url('/assets/FaktSlabPro-Blond.eot');
+    src: url('/assets/FaktSlabPro-Blond.eot?#iefix') format('embedded-opentype'),
+    url('/assets/FaktSlabPro-Blond.woff') format('woff'),
+    url('/assets/FaktSlabPro-Blond.ttf') format('truetype'),
+    url('/assets/FaktSlabPro-Blond.svg#FaktSlabPro-Blond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 30px 0 0;
+}
+
+.back-link {
+    font: 14px 'TheinhardtMd';
+    color: #939392;
+}
+
+.back-link:hover {
+    color: #939392;
+}
+
+.page {
+    padding: 70px 50px 130px;
+}
+
+.page h3 {
+    padding: 0;
+    font: 23px/35px 'TheinhardtRg';
+    color: #231f20;
+}
+
+.container .btn {
+    height: 35px;
+    padding: 0 25px;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font: 12px/35px 'TheinhardtMd';
+    text-transform: uppercase;
+}
+
+.btn.btn-orange {
+    border-color: #ec7825;
+    color: #ec7825;
+}
+
+.btn.btn-orange:hover {
+    background-color: #ec7825;
+    color: #fff;
+}
+
+.btn.btn-white {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+.btn.btn-white:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn.btn-black {
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn.btn-black:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.page-line-separator {
+    padding-bottom: 10px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.page-line-separator:first-child {
+    border: none;
+}
+
+.page-padding-line {
+    padding-top: 40px;
+}
+.page-padding-md-line {
+    padding: 20px 0 30px;
+}
+
+.small-link {
+    font: 14px/17px 'TheinhardtMd';
+    color: #a6a6a6;
+}
+
+.small-link:hover {
+    color: #a6a6a6;
+}
+
+.small-link-blue,
+.small-link-blue:hover{
+    color: #1b83f7;
+}
+
+.request-completed {
+    position: relative;
+    padding-left: 50px;
+}
+
+.request-completed:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url('/assets/success.png') no-repeat 0 0;
+}
+
+.request-completed h3 {
+    color: #383636;
+}
+
+.request-completed p {
+    font: 16px/19px 'TheinhardtMd';
+    color: #454444;
+}
+
+.appointment-links {
+    display: inline-block;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 0;
+}
+
+.appointment-links li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #a6a6a6;
+}
+
+.appointment-links li:first-child {
+    padding-left: 0;
+    border-left: none;
+}
+
+.appointment-links .small-link {
+    display: block;
+}
+
+.table-col h3 {
+    font: 16px/38px 'TheinhardtMd';
+    color: #3e3c3c;
+}
+
+.table-col p {
+    font: 16px/22px 'FaktSlabProBnd';
+    color: #3e3c3c;
+}
+
+.avatar-wrap {
+    padding-left: 30px;
+}
+
+.avatar-text {
+    padding-top: 30px;
+    font: 14px/22px 'TheinhardtMd';
+    color: #3e3c3c;
+}
+
+.get-ready-block {
+    padding-top: 15px;
+}
+
+.footer {
+    padding-bottom: 10px;
+    background: url('/assets/footer.jpg') repeat 0 0;
+}
+
+.footer * {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer .page-padding-md-line {
+    padding: 25px 0;
+}
+
+.social-link {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    margin-left: 4px;
+    background: url('/assets/social.png') no-repeat;
+}
+
+.social-link:first-child {
+    margin-left: 0;
+}
+
+.social-link.pinterest {
+    background-position: 0 0;
+}
+
+.social-link.instagram {
+    background-position: -35px 0;
+}
+
+.social-link.facebook {
+    background-position: -70px 0;
+}
+
+.social-link.twitter {
+    background-position: -105px 0;
+}
+
+.footer-nav-line {
+    height: 32px;
+    line-height: 32px;
+}
+
+.footer-nav-link {
+    font-size: 13px;
+    font-family: 'TheinhardtMd';
+    color: #fff;
+}
+
+.footer-nav-link:hover {
+    color: #fff;
+}
+
+.footer-copyright {
+    font: 13px/15px 'FaktSlabProBnd';
+    color: #9f9f9f;
+}
