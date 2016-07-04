@@ -5,13 +5,13 @@ html
 
   body
 
-    div.container.header
+    header.container
       a.logo href="#"
         img src="/assets/logo.png" /
       a.back-link.pull-right href="#"
         |&larr; GO TO YOUR APPOINTMENTS CK
 
-    div.container.page
+    section.container.page
 
       div.page-line-separator.request-completed
         h3 We have received your request for June 4th at 2:00 AM
@@ -23,7 +23,7 @@ html
           li: a.small-link href="#" Reschedule Appointment
           li: a.small-link href="#" Cancel Appointment
 
-      div.row.page-line-separator.page-padding-line
+      section.row.page-line-separator.page-padding-line
         div.col-lg-3.table-col
           h3 Your details
           p Anna Santeramo
@@ -42,16 +42,15 @@ html
           p
             |(Not yet charged)
 
-      div.row.page-line-separator.page-padding-line
+      section.row.page-line-separator.page-padding-line.user-interaction
         h3.col-lg-8 Do you have a specific look that you’re going for? Send examples
         div.col-lg-4
           button.btn.btn-default.btn-orange type="button" ATTACH A PHOTO
-      div.row.page-padding-md-line
         h3.col-lg-8 Got a minute? You can help us find the right professional for you
         div.col-lg-4
           button.btn.btn-default.btn-orange type="button" COMPLETE YOUR PROFILE
 
-      div.row.page-line-separator.page-padding-line
+      section.row.page-line-separator.page-padding-line
         div.col-lg-5.avatar-wrap
           img.col-lg-4.img-circle src="/assets/avatar.png"/
           div.col-lg-8.avatar-text You will be notified when you’re matched with a professional
@@ -59,10 +58,10 @@ html
           h3 How to get ready
           div: a.small-link.small-link-blue href="#" Get ready for Makeup &rarr;
 
-    div.footer
-      div.footer-inner.container
+    footer
+      section.footer-inner.container
 
-        div.row.page-line-separator.page-padding-md-line
+        section.row.page-line-separator.page-padding-md-line
           div.col-lg-8
             a.logo href="#": img src="/assets/footer-logo.png"/
           div.col-lg-2
@@ -70,7 +69,7 @@ html
           div.col-lg-2
             button.btn.btn-default.btn-black type="button" WORK WITH STYLEBEE
 
-        div.row.page-line-separator.page-padding-md-line
+        section.row.page-line-separator.page-padding-md-line
           div.col-lg-8
             a.social-link.pinterest href="#"
             a.social-link.instagram href="#"

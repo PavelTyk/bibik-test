@@ -14,6 +14,10 @@
  *= require_self
  */
 
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
 h3, ul, p {
     margin: 0;
     padding: 0;
@@ -58,7 +62,7 @@ h3, ul, p {
     box-sizing: border-box;
 }
 
-.header {
+header {
     padding: 30px 0 0;
 }
 
@@ -212,6 +216,19 @@ h3, ul, p {
     color: #3e3c3c;
 }
 
+.user-interaction {
+    padding-bottom: 30px;
+}
+
+.user-interaction h3,
+.user-interaction h3 + div{
+    padding-top: 30px;
+}
+.user-interaction h3:first-child,
+.user-interaction h3:first-child + div {
+    padding-top: 0;
+}
+
 .avatar-wrap {
     padding-left: 30px;
 }
@@ -226,17 +243,17 @@ h3, ul, p {
     padding-top: 15px;
 }
 
-.footer {
+footer {
     padding-bottom: 10px;
     background: url('/assets/footer.jpg') repeat 0 0;
 }
 
-.footer * {
+footer * {
     padding-left: 0;
     padding-right: 0;
 }
 
-.footer .page-padding-md-line {
+footer .page-padding-md-line {
     padding: 25px 0;
 }
 
