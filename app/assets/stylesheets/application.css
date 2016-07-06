@@ -178,9 +178,13 @@ header {
     color: #383636;
 }
 
-.request-completed p {
+.container-text {
     font: 16px/19px 'TheinhardtMd';
     color: #454444;
+}
+
+.order-details-table .page-line-separator:first-child{
+    border-top: 1px solid #e8e8e8;
 }
 
 .appointment-links {
@@ -204,11 +208,6 @@ header {
 
 .appointment-links .small-link {
     display: block;
-}
-
-.table-col h3 {
-    font: 16px/38px 'TheinhardtMd';
-    color: #3e3c3c;
 }
 
 .table-col p {
@@ -235,8 +234,6 @@ header {
 
 .avatar-text {
     padding-top: 30px;
-    font: 14px/22px 'TheinhardtMd';
-    color: #3e3c3c;
 }
 
 .get-ready-block {
